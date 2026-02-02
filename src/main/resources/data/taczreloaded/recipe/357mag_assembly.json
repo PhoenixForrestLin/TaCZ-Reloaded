@@ -1,0 +1,129 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "taczreloaded:shell",
+    "components": {
+      "taczreloaded:shell_id": "taczreloaded:357mag"
+    }
+  },
+  "results": [
+    {
+      "item": "tacz:ammo",
+      "components": {
+        "minecraft:custom_data": {
+          "AmmoId": "357mag"
+        }
+      },
+      "count": 1
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "taczreloaded:shell",
+          "components": {
+            "taczreloaded:shell_id": "taczreloaded:357mag"
+          }
+        },
+        {
+          "item": "taczreloaded:primer"
+        }
+      ],
+      "results": [
+        {
+          "item": "taczreloaded:shell",
+          "components": {
+            "taczreloaded:shell_id": "taczreloaded:357mag"
+          }
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "taczreloaded:shell",
+          "components": {
+            "taczreloaded:shell_id": "taczreloaded:357mag"
+          }
+        }
+      ],
+      "results": [
+        {
+          "item": "taczreloaded:shell",
+          "components": {
+            "taczreloaded:shell_id": "taczreloaded:357mag"
+          }
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "taczreloaded:shell",
+          "components": {
+            "taczreloaded:shell_id": "taczreloaded:357mag"
+          }
+        },
+        {
+          "item": "minecraft:gunpowder"
+        }
+      ],
+      "results": [
+        {
+          "item": "taczreloaded:shell",
+          "components": {
+            "taczreloaded:shell_id": "taczreloaded:357mag"
+          }
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "taczreloaded:shell",
+          "components": {
+            "taczreloaded:shell_id": "taczreloaded:357mag"
+          }
+        },
+        {
+          "item": "minecraft:copper_nugget"
+        }
+      ],
+      "results": [
+        {
+          "item": "taczreloaded:shell",
+          "components": {
+            "taczreloaded:shell_id": "taczreloaded:357mag"
+          }
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "taczreloaded:shell",
+          "components": {
+            "taczreloaded:shell_id": "taczreloaded:357mag"
+          }
+        }
+      ],
+      "results": [
+        {
+          "item": "tacz:ammo",
+          "components": {
+            "minecraft:custom_data": {
+              "AmmoId": "357mag"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "loops": 1
+}

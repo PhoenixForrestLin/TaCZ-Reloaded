@@ -1,0 +1,24 @@
+{
+  "variants": {
+    "9mm": "taczreloaded:item/shells/9mm",
+    "12g": "taczreloaded:item/shells/12g",
+    "30_06": "taczreloaded:item/shells/30_06",
+    "45acp": "taczreloaded:item/shells/45acp",
+    "45_70": "taczreloaded:item/shells/45_70",
+    "46x30": "taczreloaded:item/shells/46x30",
+    "50ae": "taczreloaded:item/shells/50ae",
+    "50bmg": "taczreloaded:item/shells/50bmg",
+    "57x28": "taczreloaded:item/shells/57x28",
+    "58x42": "taczreloaded:item/shells/58x42",
+    "68x51fury": "taczreloaded:item/shells/68x51fury",
+    "308": "taczreloaded:item/shells/308",
+    "338": "taczreloaded:item/shells/338",
+    "357mag": "taczreloaded:item/shells/357mag",
+    "545x39": "taczreloaded:item/shells/545x39",
+    "556x45": "taczreloaded:item/shells/556x45",
+    "762x25": "taczreloaded:item/shells/762x25",
+    "762x39": "taczreloaded:item/shells/762x39",
+    "762x54": "taczreloaded:item/shells/762x54",
+    "40mm": "taczreloaded:item/shells/40mm"
+  }
+}

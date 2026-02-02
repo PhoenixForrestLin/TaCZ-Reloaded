@@ -1,0 +1,129 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "taczreloaded:shell",
+    "components": {
+      "taczreloaded:shell_id": "taczreloaded:12g"
+    }
+  },
+  "results": [
+    {
+      "item": "tacz:ammo",
+      "components": {
+        "minecraft:custom_data": {
+          "AmmoId": "12g"
+        }
+      },
+      "count": 1
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "taczreloaded:shell",
+          "components": {
+            "taczreloaded:shell_id": "taczreloaded:12g"
+          }
+        },
+        {
+          "item": "taczreloaded:primer"
+        }
+      ],
+      "results": [
+        {
+          "item": "taczreloaded:shell",
+          "components": {
+            "taczreloaded:shell_id": "taczreloaded:12g"
+          }
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "taczreloaded:shell",
+          "components": {
+            "taczreloaded:shell_id": "taczreloaded:12g"
+          }
+        }
+      ],
+      "results": [
+        {
+          "item": "taczreloaded:shell",
+          "components": {
+            "taczreloaded:shell_id": "taczreloaded:12g"
+          }
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "taczreloaded:shell",
+          "components": {
+            "taczreloaded:shell_id": "taczreloaded:12g"
+          }
+        },
+        {
+          "item": "minecraft:gunpowder"
+        }
+      ],
+      "results": [
+        {
+          "item": "taczreloaded:shell",
+          "components": {
+            "taczreloaded:shell_id": "taczreloaded:12g"
+          }
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "taczreloaded:shell",
+          "components": {
+            "taczreloaded:shell_id": "taczreloaded:12g"
+          }
+        },
+        {
+          "item": "minecraft:copper_nugget"
+        }
+      ],
+      "results": [
+        {
+          "item": "taczreloaded:shell",
+          "components": {
+            "taczreloaded:shell_id": "taczreloaded:12g"
+          }
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "taczreloaded:shell",
+          "components": {
+            "taczreloaded:shell_id": "taczreloaded:12g"
+          }
+        }
+      ],
+      "results": [
+        {
+          "item": "tacz:ammo",
+          "components": {
+            "minecraft:custom_data": {
+              "AmmoId": "12g"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "loops": 1
+}

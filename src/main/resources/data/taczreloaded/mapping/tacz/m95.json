@@ -1,0 +1,6 @@
+{
+  "mode": "hybrid",
+  "shell": { "id": "taczreloaded:shell", "components": {"taczreloaded:shell_id": "taczreloaded:50bmg"} },
+  "fireDelay": 1.43,
+  "reloadDelay": 5.23
+}

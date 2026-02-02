@@ -1,0 +1,14 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "minecraft:flint"
+    }
+  ],
+  "results": [
+    {
+      "id": "taczreloaded:flint_dust"
+    }
+  ],
+  "processingTime": 150
+}

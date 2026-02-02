@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "create:iron_sheet"
+  },
+  "result": {
+    "id": "taczreloaded:shell",
+    "components": {
+      "taczreloaded:shell_id": "taczreloaded:58x42"
+    },
+    "count": 9
+  }
+}

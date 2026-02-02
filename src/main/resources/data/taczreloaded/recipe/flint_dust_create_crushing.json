@@ -1,0 +1,18 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "minecraft:flint"
+    }
+  ],
+  "results": [
+    {
+      "id": "taczreloaded:flint_dust"
+    },
+    {
+      "id": "taczreloaded:flint_dust",
+      "chance": 0.25
+    }
+  ],
+  "processingTime": 250
+}

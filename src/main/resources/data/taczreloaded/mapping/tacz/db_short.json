@@ -1,0 +1,5 @@
+{
+  "mode": "on_reload",
+  "shell": { "id": "taczreloaded:shell", "components": {"taczreloaded:shell_id": "taczreloaded:12g"} },
+  "delay": 2.3
+}

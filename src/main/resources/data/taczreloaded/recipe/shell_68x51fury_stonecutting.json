@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "create:brass_sheet"
+  },
+  "result": {
+    "id": "taczreloaded:shell",
+    "components": {
+      "taczreloaded:shell_id": "taczreloaded:68x51fury"
+    },
+    "count": 9
+  }
+}

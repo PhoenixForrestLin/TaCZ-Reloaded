@@ -1,0 +1,27 @@
+{
+  "item.taczreloaded.flint_powder": "Flint Powder",
+  "item.taczreloaded.flint_dust": "Flint Dust",
+
+  "shell.taczreloaded.9mm": "9mm Casing",
+  "shell.taczreloaded.12g": "12 Gauge Shell",
+  "shell.taczreloaded.30_06": ".30-06 Casing",
+  "shell.taczreloaded.40mm": "40mm Grenade Casing",
+  "shell.taczreloaded.45_70": ".45-70 Casing",
+  "shell.taczreloaded.45acp": ".45 ACP Casing",
+  "shell.taczreloaded.46x30": "4.6x30mm Casing",
+  "shell.taczreloaded.50ae": ".50 AE Casing",
+  "shell.taczreloaded.50bmg": ".50 BMG Casing",
+  "shell.taczreloaded.57x28": "5.7x28mm Casing",
+  "shell.taczreloaded.58x42": "5.8x42mm Casing",
+  "shell.taczreloaded.68x51fury": "6.8x51mm Fury Casing",
+  "shell.taczreloaded.308": ".308 Win Casing",
+  "shell.taczreloaded.338": ".338 Lapua Casing",
+  "shell.taczreloaded.357mag": ".357 Magnum Casing",
+  "shell.taczreloaded.545x39": "5.45x39mm Casing",
+  "shell.taczreloaded.556x45": "5.56x45mm Casing",
+  "shell.taczreloaded.762x25": "7.62x25mm Casing",
+  "shell.taczreloaded.762x39": "7.62x39mm Casing",
+  "shell.taczreloaded.762x54": "7.62x54mmR Casing",
+
+  "itemGroup.taczreloaded.tacz_reloaded_tab": "TaCZ Reloaded"
+}
