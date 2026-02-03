@@ -34,7 +34,7 @@
 - NeoForge 21.1.x
 - TaCZ 1.1.7+
 - Create 6.0+
-- （可选）[Sensible Stackables](https://www.curseforge.com/minecraft/mc-mods/sensible-stackables) - 解除堆叠上限
+- [Sensible Stackables](https://www.curseforge.com/minecraft/mc-mods/sensible-stackables) - 解除堆叠上限
 
 ### 安装步骤
 
