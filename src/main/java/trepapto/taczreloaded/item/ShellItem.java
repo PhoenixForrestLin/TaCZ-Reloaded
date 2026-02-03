@@ -44,10 +44,10 @@ public class ShellItem extends Item {
     public int getMaxStackSize(@NotNull ItemStack stack) {
         ShellData data = getShellData(stack);
         if (data != null) {
-            TaCZReloaded.LOGGER.debug("getMaxStackSize: {}", data.id().getPath());
+            //TaCZReloaded.LOGGER.debug("getMaxStackSize: {}", data.id().getPath());
             return data.stackSize();
         }
-        TaCZReloaded.LOGGER.debug("getMaxStackSize: {}", stack.getCount());
+        //TaCZReloaded.LOGGER.debug("getMaxStackSize: {}", stack.getCount());
         return super.getMaxStackSize(stack);
     }
 }

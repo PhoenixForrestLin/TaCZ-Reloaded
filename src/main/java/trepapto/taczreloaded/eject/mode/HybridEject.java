@@ -34,10 +34,6 @@ public class HybridEject extends EjectionBehavior
         this.lastShellPending = lastShellPending;
     }
 
-    public HybridEject(ItemStack shell, float fireDelay, float reloadDelay) {
-        this(shell, fireDelay, reloadDelay, false);
-    }
-
     public static final MapCodec<HybridEject> CODEC = RecordCodecBuilder.mapCodec(instance ->
         instance.group(
             ItemStack.CODEC.fieldOf("shell").forGetter(EjectionBehavior::getShell),
@@ -129,8 +125,7 @@ public class HybridEject extends EjectionBehavior
         CompoundTag tag = customData.copyTag();
 
         if (tag.contains("HasBulletInBarrel", Tag.TAG_INT)) {
-            boolean hasBulletInBarrel = tag.getBoolean("HasBulletInBarrel");
-            return hasBulletInBarrel;
+            return tag.getBoolean("HasBulletInBarrel");
         }
         return false;
     }

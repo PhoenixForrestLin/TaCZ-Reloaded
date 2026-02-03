@@ -24,7 +24,7 @@ public class ShellManager extends SimplePreparableReloadListener<Map<ResourceLoc
 
     private final Map<ResourceLocation, ShellData> shells = new HashMap<>();
 
-    private ShellManager(){};
+    private ShellManager(){}
 
     @Override
     protected @NotNull Map<ResourceLocation, ShellData> prepare(ResourceManager resourceManager, @NotNull ProfilerFiller profiler) {

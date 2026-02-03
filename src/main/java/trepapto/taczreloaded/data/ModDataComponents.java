@@ -8,7 +8,6 @@ import net.neoforged.neoforge.registries.DeferredRegister;
 
 import java.util.function.Supplier;
 
-import trepapto.taczreloaded.eject.EjectMode;
 import trepapto.taczreloaded.eject.EjectionBehavior;
 import static trepapto.taczreloaded.TaCZReloaded.MODID;
 

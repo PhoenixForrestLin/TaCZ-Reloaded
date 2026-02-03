@@ -24,10 +24,6 @@ public class OnFireEject extends EjectionBehavior
         this.pendingShell = pendingShell;
     }
 
-    public OnFireEject(ItemStack shell, float delay) {
-        this(shell, delay, false);
-    }
-
     public static final MapCodec<OnFireEject> CODEC = RecordCodecBuilder.mapCodec(instance ->
         instance.group(
             ItemStack.CODEC.fieldOf("shell").forGetter(EjectionBehavior::getShell),

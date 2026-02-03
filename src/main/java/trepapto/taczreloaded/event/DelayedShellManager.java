@@ -53,11 +53,6 @@ public class DelayedShellManager {
         ));
     }
 
-    // 兼容重载
-    public static void scheduleShell(LivingEntity entity, ItemStack shellStack, int delayTicks) {
-        scheduleShell(entity, shellStack, delayTicks, null, ItemStack.EMPTY, 0);
-    }
-
     public static void cancelPendingShells(UUID entityUUID) {
         int before = PENDING_TASKS.size();
         PENDING_TASKS.removeIf(task -> task.entityUUID().equals(entityUUID));

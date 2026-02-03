@@ -10,7 +10,6 @@ import trepapto.taczreloaded.eject.EjectMode;
 import trepapto.taczreloaded.eject.EjectionBehavior;
 import trepapto.taczreloaded.eject.trigger.IOnEjectFinish;
 import trepapto.taczreloaded.eject.trigger.IOnFireTrigger;
-import trepapto.taczreloaded.eject.trigger.IOnGunDrawTrigger;
 import trepapto.taczreloaded.eject.trigger.IOnReloadTrigger;
 
 import java.util.Objects;
@@ -23,10 +22,6 @@ public class OnReloadEject extends EjectionBehavior
     public OnReloadEject(ItemStack shell, float delay, int pendingShellCount) {
         super(shell, delay);
         this.pendingShellCount = pendingShellCount;
-    }
-
-    public OnReloadEject(ItemStack shell, float delay) {
-        this(shell, delay, 0);
     }
 
     public static final MapCodec<OnReloadEject> CODEC = RecordCodecBuilder.mapCodec(instance ->

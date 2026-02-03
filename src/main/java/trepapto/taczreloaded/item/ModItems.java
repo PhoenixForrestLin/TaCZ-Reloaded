@@ -1,11 +1,8 @@
 package trepapto.taczreloaded.item;
 
-import net.minecraft.core.component.DataComponents;
 import net.minecraft.world.item.Item;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
-
-import java.util.function.Supplier;
 
 import static trepapto.taczreloaded.TaCZReloaded.MODID;
 

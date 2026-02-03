@@ -3,6 +3,7 @@ package trepapto.taczreloaded.eject;
 import com.mojang.serialization.Codec;
 import com.mojang.serialization.MapCodec;
 import net.minecraft.util.StringRepresentable;
+import org.jetbrains.annotations.NotNull;
 import trepapto.taczreloaded.eject.mode.*;
 
 public enum EjectMode implements StringRepresentable {
@@ -20,7 +21,7 @@ public enum EjectMode implements StringRepresentable {
     }
 
     @Override
-    public String getSerializedName() {
+    public @NotNull String getSerializedName() {
         return name;
     }
 
